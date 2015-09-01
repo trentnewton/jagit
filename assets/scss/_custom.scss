@@ -1,0 +1,181 @@
+/* global settings / styles / resets */
+
+body,
+input,
+textarea {
+	text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	background-size: cover;
+}
+
+::selection {
+	background: $primary-color;
+	color: $white;
+}
+
+svg { 
+ 	height: 100%;
+ 	width: 100%;
+}
+
+main,
+header,
+nav,
+section,
+article,
+aside,
+footer {
+   display: block;
+}
+
+iframe {
+	border: 0;
+}
+
+table { 
+	border-spacing: 0;   
+	border-collapse: separate;
+	width: 100%;
+}
+
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+//Main Site Styles
+
+header {
+
+	&.column,
+	&.columns {
+
+		@media #{$small-landscape} {
+			width: 66.66667%;
+		}
+
+		@media #{$medium-landscape} {
+			width: 58.33333;
+		}
+
+	}
+
+}
+
+.main-container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+#bg-container {
+	position: relative;
+}
+
+.hero-container,
+.boxes-container {
+	padding: rem-calc(20);
+	box-shadow: 0 2px 5px 0 rgba($black, 1), 0 2px 10px 0 rgba($black, 1);
+	margin-bottom: rem-calc(20);
+}
+
+.hero,
+.boxes {
+	padding: rem-calc(20);
+}
+
+.boxes-container {
+	background: $white;
+}
+
+.boxes {
+	border: 2px solid $tertiary-color;
+}
+
+// Forms
+
+button,
+.button,
+input[type="submit"] {
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+// Header Section
+
+#main-header{
+	box-shadow: 0 2px 5px 0 rgba($black,0.36),0 2px 10px 0 rgba($black,0.32);
+	background: $white;
+	padding: rem-calc(20);
+}
+
+.logo-area,
+.info {
+	padding: rem-calc(20);
+}
+
+.logo-area {
+	display: flex;
+	align-items: center;
+	height: rem-calc(250);
+	background: $tertiary-color;
+
+	@media #{$small-landscape} {
+		height: rem-calc(125);
+	}
+
+	@media #{$medium-landscape} {
+		height: rem-calc(150);
+	}
+
+}
+
+.info {
+	border: 3px solid $tertiary-color;
+	border-top: none;
+
+	h1 {
+		font-size: $h4-font-size;
+		margin-bottom: rem-calc(24);
+		text-transform: uppercase;
+	}
+
+}
+
+// Hero Section
+
+.hero-container {
+	background: url(#{$imagePath}/hero-area-bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.hero {
+	text-align: center;
+	border: 2px solid $white;
+}
+
+.hero,
+.hero h1 {
+	color: $white;
+}
+
+// background animation
+
+.background-1{
+	position: absolute;
+	opacity: 0.2;
+	z-index: -1;
+}
+
+.background-2{
+	position: absolute;
+	opacity: 0.5;
+	z-index: 0;
+}

@@ -11,6 +11,105 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/img\/icons\/ipad-72.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3328,
+		"inputAbbreviatedPath": "\/assets\/img\/icons\/ipad-72.png",
+		"outputAbbreviatedPath": "\/assets\/img\/icons\/ipad-72.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/icons\/ipad-76.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3488,
+		"inputAbbreviatedPath": "\/assets\/img\/icons\/ipad-76.png",
+		"outputAbbreviatedPath": "\/assets\/img\/icons\/ipad-76.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/icons\/ipad-76@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6499,
+		"inputAbbreviatedPath": "\/assets\/img\/icons\/ipad-76@2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/icons\/ipad-76@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/icons\/ipad.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6278,
+		"inputAbbreviatedPath": "\/assets\/img\/icons\/ipad.png",
+		"outputAbbreviatedPath": "\/assets\/img\/icons\/ipad.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/icons\/iphone-60@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5974,
+		"inputAbbreviatedPath": "\/assets\/img\/icons\/iphone-60@2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/icons\/iphone-60@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/icons\/iphone-60@3x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7794,
+		"inputAbbreviatedPath": "\/assets\/img\/icons\/iphone-60@3x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/icons\/iphone-60@3x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/icons\/iphone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2567,
+		"inputAbbreviatedPath": "\/assets\/img\/icons\/iphone.png",
+		"outputAbbreviatedPath": "\/assets\/img\/icons\/iphone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/icons\/iphone@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4807,
+		"inputAbbreviatedPath": "\/assets\/img\/icons\/iphone@2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/icons\/iphone@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/images\/hero-area-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 146046,
+		"inputAbbreviatedPath": "\/assets\/img\/images\/hero-area-bg.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/images\/hero-area-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/js\/app.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -22,12 +121,45 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/js\/d3.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/d3.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/d3-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/min\/app-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/min\/app-min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/app-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/trianglify.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/trianglify.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/trianglify.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/velocity.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/velocity.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/velocity-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -77,8 +209,8 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
 	"\/bower.json": {
@@ -206,7 +338,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.abide.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.abide.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.abide-min.js",
@@ -217,7 +349,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.accordion.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.accordion.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.accordion-min.js",
@@ -228,7 +360,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.alert.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.alert.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.alert-min.js",
@@ -239,7 +371,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.clearing.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.clearing.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.clearing-min.js",
@@ -250,7 +382,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.dropdown.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.dropdown.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.dropdown-min.js",
@@ -261,7 +393,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.equalizer.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.equalizer.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.equalizer-min.js",
@@ -272,7 +404,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.interchange.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.interchange.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.interchange-min.js",
@@ -283,7 +415,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.joyride.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.joyride.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.joyride-min.js",
@@ -305,7 +437,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.magellan.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.magellan.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.magellan-min.js",
@@ -316,7 +448,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.offcanvas.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.offcanvas.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.offcanvas-min.js",
@@ -327,7 +459,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.orbit.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.orbit.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.orbit-min.js",
@@ -338,7 +470,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.reveal.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.reveal.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.reveal-min.js",
@@ -349,7 +481,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.slider.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.slider.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.slider-min.js",
@@ -360,7 +492,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.tab.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.tab.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.tab-min.js",
@@ -371,7 +503,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.tooltip.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.tooltip.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.tooltip-min.js",
@@ -382,7 +514,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.topbar.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.topbar.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/min\/foundation.topbar-min.js",
@@ -3777,98 +3909,20 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.abide.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/d3.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.accordion.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/trianglify.min.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.alert.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/velocity.js",
 			"position": 3,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.clearing.js",
-			"position": 4,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.dropdown.js",
-			"position": 5,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.equalizer.js",
-			"position": 6,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.interchange.js",
-			"position": 7,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.joyride.js",
-			"position": 8,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.magellan.js",
-			"position": 9,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.offcanvas.js",
-			"position": 10,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.orbit.js",
-			"position": 11,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.reveal.js",
-			"position": 12,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.slider.js",
-			"position": 13,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.tab.js",
-			"position": 14,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.tooltip.js",
-			"position": 15,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.topbar.js",
-			"position": 16,
 			"type": 0
 			}
 		]
