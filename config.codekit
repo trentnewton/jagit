@@ -11,94 +11,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/img\/icons\/ipad-72.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3328,
-		"inputAbbreviatedPath": "\/assets\/img\/icons\/ipad-72.png",
-		"outputAbbreviatedPath": "\/assets\/img\/icons\/ipad-72.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/icons\/ipad-76.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3488,
-		"inputAbbreviatedPath": "\/assets\/img\/icons\/ipad-76.png",
-		"outputAbbreviatedPath": "\/assets\/img\/icons\/ipad-76.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/icons\/ipad-76@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6499,
-		"inputAbbreviatedPath": "\/assets\/img\/icons\/ipad-76@2x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/icons\/ipad-76@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/icons\/ipad.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6278,
-		"inputAbbreviatedPath": "\/assets\/img\/icons\/ipad.png",
-		"outputAbbreviatedPath": "\/assets\/img\/icons\/ipad.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/icons\/iphone-60@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5974,
-		"inputAbbreviatedPath": "\/assets\/img\/icons\/iphone-60@2x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/icons\/iphone-60@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/icons\/iphone-60@3x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7794,
-		"inputAbbreviatedPath": "\/assets\/img\/icons\/iphone-60@3x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/icons\/iphone-60@3x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/icons\/iphone.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2567,
-		"inputAbbreviatedPath": "\/assets\/img\/icons\/iphone.png",
-		"outputAbbreviatedPath": "\/assets\/img\/icons\/iphone.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/icons\/iphone@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4807,
-		"inputAbbreviatedPath": "\/assets\/img\/icons\/iphone@2x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/icons\/iphone@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/img\/images\/hero-area-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -123,7 +35,7 @@
 		},
 	"\/assets\/js\/d3.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/d3.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/d3-min.js",
@@ -145,7 +57,7 @@
 		},
 	"\/assets\/js\/trianglify.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/trianglify.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/trianglify.min-min.js",
@@ -156,7 +68,7 @@
 		},
 	"\/assets\/js\/velocity.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/velocity.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/velocity-min.js",
@@ -3408,7 +3320,7 @@
 		},
 	"\/bower_components\/modernizr\/modernizr.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/modernizr\/modernizr.js",
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/min\/modernizr-min.js",
@@ -3903,26 +3815,14 @@
 	"\/assets\/js\/app.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/modernizr\/modernizr.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/d3.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation\/foundation.js",
 			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/trianglify.min.js",
-			"position": 2,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/velocity.js",
-			"position": 3,
 			"type": 0
 			}
 		]

@@ -4,8 +4,7 @@ body,
 input,
 textarea {
 	text-size-adjust: 100%;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	@extend .antialiased;
 }
 
 body {
@@ -22,14 +21,17 @@ svg {
  	width: 100%;
 }
 
-main,
-header,
-nav,
-section,
 article,
 aside,
-footer {
-   display: block;
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
 }
 
 iframe {
@@ -49,6 +51,17 @@ table {
 	fill: currentColor;
 }
 
+.responsive-svg-container {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.responsive-svg {
+	max-width: 100%;
+	max-height: 100%;
+}
+
 //Main Site Styles
 
 header {
@@ -57,11 +70,11 @@ header {
 	&.columns {
 
 		@media #{$small-landscape} {
-			width: 66.66667%;
+			width: percentage(2/3);
 		}
 
 		@media #{$medium-landscape} {
-			width: 58.33333;
+			width: percentage(7/12);
 		}
 
 	}
@@ -72,10 +85,6 @@ header {
 	height: 100vh;
 	display: flex;
 	align-items: center;
-}
-
-#bg-container {
-	position: relative;
 }
 
 .hero-container,
@@ -107,6 +116,100 @@ input[type="submit"] {
 	margin-bottom: 0;
 }
 
+.icon-envelope-o {
+	position: relative;
+	top: em-calc(2);
+}
+
+// Buttons
+
+.button--fancy {
+	display: block;
+	border: none;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	overflow: hidden;
+	transition: background-color 0.3s;
+	background-color: $button-bg-color;
+	padding: rem-calc(16 32);
+	text-transform: uppercase;
+	color: $white;
+	font-size: $h6-font-size;
+
+	&:before {
+		content: '';
+		position: absolute;
+		left: -50%;
+		width: 200%;
+		height: 200%;
+		background: $button-bg-hover;
+		top: -50%;
+		z-index: -1;
+		transform: translate3d(0, -100%, 0) rotate3d(0, 0, 1, -10deg);
+	}
+
+	> span {
+		display: block;
+	}
+
+	.icon-envelope-o {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		left: 0;
+		color: $white;
+		transform: translate3d(0, -100%, 0);
+	}
+
+	> span,
+	.icon-envelope-o {
+		transition: transform 0.3s;
+		transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+	}
+
+	&:hover {
+		background-color: $button-bg-hover;
+		transition: background-color 0s 0.3s;
+
+		&:before {
+			animation: fancy-1 0.3s forwards ease-in;
+		}
+
+		.icon-envelope-o {
+			transform: translate3d(0, 100%, 0);
+		}
+
+		> span {
+			opacity: 0;
+			transform: translate3d(0, 100%, 0);
+		}
+
+	}
+
+}
+
+@keyframes fancy-1 {
+	50% {
+		transform: translate3d(0, -50%, 0) rotate3d(0, 0, 1, -10deg);
+		animation-timing-function: ease-out;
+	}
+	100% {
+		transform: translate3d(0, 0%, 0) rotate3d(0, 0, 1, 0deg);
+	}
+}
+@keyframes fancy-2 {
+	50% {
+		transform: translate3d(0, 50%, 0) rotate3d(0, 0, 1, 10deg);
+		animation-timing-function: ease-out;
+	}
+	100% {
+		transform: translate3d(0, 0%, 0) rotate3d(0, 0, 1, 0deg);
+	}
+}
+
+
 // Header Section
 
 #main-header{
@@ -136,9 +239,15 @@ input[type="submit"] {
 
 }
 
+.jagit-logo {
+	fill: $white;
+}
+
 .info {
 	border: 3px solid $tertiary-color;
 	border-top: none;
+	padding-top: rem-calc(40);
+	padding-bottom: rem-calc(40);
 
 	h1 {
 		font-size: $h4-font-size;
@@ -149,12 +258,6 @@ input[type="submit"] {
 }
 
 // Hero Section
-
-.hero-container {
-	background: url(#{$imagePath}/hero-area-bg.jpg);
-	background-size: cover;
-	background-position: center;
-}
 
 .hero {
 	text-align: center;
@@ -168,14 +271,11 @@ input[type="submit"] {
 
 // background animation
 
-.background-1{
+#gradient {
 	position: absolute;
-	opacity: 0.2;
-	z-index: -1;
-}
-
-.background-2{
-	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	z-index: 1;
 	opacity: 0.5;
-	z-index: 0;
 }

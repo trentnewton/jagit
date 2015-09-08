@@ -5,28 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jagit</title>
     <link rel="stylesheet" href="assets/css/app.css" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <link rel="icon" href="assets/img/icons/icon-32x32.png" sizes="32x32">
+    <link rel="icon" href="assets/img/icons/icon-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="assets/img/icons/icon-180x180.png">
     <script src="//use.typekit.net/hye5brl.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </head>
   <body>
-    <div id="bg-container">
-      <div id="background-1" class="background-1"></div>
-      <div id="background-2" class="background-2"></div>
+    <svg style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <symbol id="icon-envelope-o" viewBox="0 0 1024 1024">
+          <title>Email</title>
+          <path d="M950.857 859.429v-438.857q-18.286 20.571-39.429 37.714-153.143 117.714-243.429 193.143-29.143 24.571-47.429 38.286t-49.429 27.714-58.571 14h-1.143q-27.429 0-58.571-14t-49.429-27.714-47.429-38.286q-90.286-75.429-243.429-193.143-21.143-17.143-39.429-37.714v438.857q0 7.429 5.429 12.857t12.857 5.429h841.143q7.429 0 12.857-5.429t5.429-12.857zM950.857 258.857v-14t-0.286-7.429-1.714-7.143-3.143-5.143-5.143-4.286-8-1.429h-841.143q-7.429 0-12.857 5.429t-5.429 12.857q0 96 84 162.286 110.286 86.857 229.143 181.143 3.429 2.857 20 16.857t26.286 21.429 25.429 18 28.857 15.714 24.571 5.143h1.143q11.429 0 24.571-5.143t28.857-15.714 25.429-18 26.286-21.429 20-16.857q118.857-94.286 229.143-181.143 30.857-24.571 57.429-66t26.571-75.143zM1024 237.714v621.714q0 37.714-26.857 64.571t-64.571 26.857h-841.143q-37.714 0-64.571-26.857t-26.857-64.571v-621.714q0-37.714 26.857-64.571t64.571-26.857h841.143q37.714 0 64.571 26.857t26.857 64.571z"></path>
+        </symbol>
+        <symbol id="logo">
+          <title>Jagit</title>
+          <path class="jagit-logo" d="M0,168 L25.2,152.5 C32.1,164.8 39.2,173.4 55.3,173.4 C70.2,173.4 80.8,166.5 80.8,143.3 L80.8,4 L111.7,4 L111.7,144 C111.7,182.6 88.5,201.2 56.5,201.2 C26.6,201.2 9.4,186.3 0,168 Z M155.3,198.6 L124.4,198.6 L209.7,0 L211.4,0 L297,198.6 L264.7,198.6 L253.5,171.4 L166.5,171.4 L155.3,198.6 Z M210.3,67.3 L178,144.3 L242.1,144.3 C242.4,144.3 210.3,67.3 210.3,67.3 Z M298.5,101.3 C298.5,43.8 342.6,1.4 398.4,1.4 C434.5,1.4 456.2,14.3 472.2,32.3 L451,52.3 C439.3,39.4 425.8,29.1 397.5,29.1 C358,29.1 330.2,60 330.2,101.2 C330.2,142.4 358.2,173.3 402.6,173.3 C423.8,173.3 438.7,168.4 449.8,161 L449.8,139 L397.7,139 L397.7,111.8 L478.1,111.8 L478.1,175.6 C461.8,189.1 439.2,201.1 402.5,201.1 C342.8,201.2 298.5,158.8 298.5,101.3 Z M519.7,4 L538.6,4 L538.6,198.6 L519.7,198.6 L519.7,4 Z M627,20.6 L566.6,20.6 L566.6,4 L705.7,4 L705.7,20.6 L645.6,20.6 L645.6,198.6 L627,198.6 L627,20.6 Z M928.6,5.4 L850.6,190.1 C855.4,192.7 860.4,194.8 865.6,196.5 L944,11.6 C939.1,9.2 934,7 928.6,5.4 Z M958.2,20.2 L882.2,200.7 C887.5,201.6 893,202.1 898.6,202.1 C903.3,202.1 907.9,201.7 912.4,201.1 L980.1,41.9 C974,33.6 966.6,26.3 958.2,20.2 Z M948.5,189.1 C979.2,171.8 1000,139.1 1000,101.6 C1000,92.8 998.7,84.2 996.6,76.1 L948.5,189.1 Z M844,186.1 L921.4,3.5 C914.1,1.8 906.5,0.9 898.7,0.9 C842.7,0.9 797.3,45.9 797.3,101.5 C797.3,137.1 815.9,168.3 844,186.1 Z"></path> 
+      </defs>
+      </svg>
       <div class="row main-container">
         <header class="columns medium-5 small-centered">
           <div id="main-header">
             <div class="logo-area">
-              <img src="assets/img/images/logo.svg" alt="Jagit">
+              <div class="responsive-svg-container">
+                <svg class="responsive-svg" viewBox="0 0 1000 203"><use xlink:href="#logo" aria-labelledby="logo" preserveAspectRatio="xMinYMin meet"></use></svg>
+              </div>
             </div>
             <div class="info text-center">
-              <h1><strong>Coming</strong> Soon&hellip;</h1>
-              <a href="mailto:justin@jagit.net.au" class="button">Contact</a>
+              <h1><strong>Coming</strong>&nbsp;Soon&hellip;</h1>
+              <a href="mailto:justin@jagit.net.au" class="button--fancy">
+                <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o" aria-labelledby="icon-envelope-o" preserveAspectRatio="xMinYMin meet"></use></svg>
+                <span>Contact</span>
+              </a>
             </div>
           </div>
         </header>
       </div>
-    </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="assets/js/min/app-min.js"></script>
   </body>
